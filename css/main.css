@@ -1,0 +1,712 @@
+body {
+	font-family: "champagne__limousines";
+	margin:0;
+	padding:0;
+	font-size: 1.25rem;
+	background-color: #fffefd;
+}
+
+.container{
+	margin:2em;
+	margin-top: 0;
+	padding-top: 1.5rem;
+
+}
+
+.container2{
+	margin-top: 0;
+	padding-top: 2rem;
+
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0;
+	margin-top:0rem;
+	color: #ef7e93;/*pink*/
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-bottom: 0.8rem;
+
+	color:#ef7e93;/*pink*/
+	border: 1px solid #ef7e93;
+	padding:1.5rem;
+	padding-left:2.5rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	color:#a3cf83;/*green*/
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	margin-top:0.8rem;
+	color:#a3cf83;/*green*/
+
+}
+
+.navbar{
+	padding:2rem;
+
+}
+
+p.pinkcolor {
+	color: #ef7e93;
+	font-size: 1.5rem;
+	font-weight:bold;
+}
+
+p.blackcolor {
+	color: black;
+	font-size: 1.1rem;
+
+}
+
+/*header*/
+
+a {
+	color: #000;
+}
+
+/* header */
+header {
+	background-color: white;
+	padding:0;
+	/*border-bottom: 1px solid #f2f2f2;*/
+}
+
+.header {
+	background-color: #fff;
+	box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+
+.nav-main{
+	background-color: white;
+	padding:1.8rem;
+
+}
+
+
+.header-text{
+	padding:5rem;
+}
+
+.nav-grid-left{
+	margin:auto;
+	width:50%;
+}
+
+.nav-grid-right{
+
+}
+
+
+	.image-panel {/*faux image crop refered from https://spigotdesign.com/crop-any-size-image-with-css/*/
+
+		height:20rem;
+		overflow:hidden;
+		position: relative;
+		color:white;
+		margin:1rem;
+		min-width:15rem;
+
+	}
+
+	/*item page*/
+
+	.form-group {
+		width: 30%;
+		margin: 30px;
+		color: #95d7fc;
+
+	}
+
+	.btn_number{
+		color:#ef7e93;
+		border-color: #ef7e93;
+		margin-left: 1rem;
+	}
+
+	.slideshow{
+		display: table;
+	}
+
+	.w3-button{
+		color:#ef7e93;
+		border: 1.5px solid white;
+		padding:0.9rem;
+
+		position: absolute;
+		top: 50%;
+		transform:translateY(-50%);
+
+	}
+
+	.w3-button:hover{
+		color:white;
+		background-color: #ef7e93;
+		border: 1.5px solid #ef7e93;
+		padding:0.9rem;
+	}
+
+	.w3-display-left{
+		position: absolute;
+		left:0;
+	}
+
+	.w3-display-right{
+		position: absolute;
+		right:0;
+	}
+
+	/*about page*/
+
+	.about_left{
+		display:inline-block;
+		height: 30rem;
+		text-align: center;
+		background-color: #FFFDF4;
+	}
+
+	.about_right{
+		display:inline-block;
+		width:80%;
+		background-image: url(../img/about.png);
+	}
+
+	p.about_text{
+
+		padding:4rem;
+		padding-bottom: 1rem;
+	}
+
+	h1.about_text{
+
+		padding:4rem;
+		padding-bottom: 0.2rem;
+	}
+
+
+/*buttons*/
+
+	.payment_button{/*code from lab exercise*/
+		border-color:#ef7e93;
+		border-style:solid;
+		color:#ef7e93;
+		border-width: 0.15rem;
+		padding: 0.6rem 1rem;
+		text-decoration:none;
+		margin-top:5rem;
+	}
+
+	.payment_button:hover, .buttonfocus {
+		background-color:#ef7e93;
+		color:white;
+		border-color:#ef7e93;
+	}
+
+	.task_button{/*code from lab exercise*/
+
+		color:#ef7e93;
+		text-decoration:underline;
+		margin-right: 1rem;
+
+	}
+
+	.task_button:hover, .buttonfocus {
+
+		color:#a3cf83;
+		text-decoration:underline;
+	}
+
+
+
+	.grid_large{
+		display:inline-block;
+		zoom:1;
+		vertical-align: middle;
+		color:white;
+		height: 250px;
+		margin:0.5em;
+		position:relative;
+
+
+	}
+
+	.grid_small{
+		display:inline-block;
+		zoom:1;
+		vertical-align: middle;
+		color:white;
+		height: 250px;
+		margin:0.5em;
+		position:relative;
+
+
+	}
+
+	.menu_border{
+
+		position: absolute;
+		top: 50%;
+		transform:translateY(-50%);
+		margin-left: 3rem;
+		margin-right: 3rem;
+
+
+
+
+	}
+
+	.divider{
+		height:1px;
+		width:100%;
+		margin-top:1em;
+		margin-bottom:1em;
+		background-color: #f2f2f2;
+	}
+
+	.page_number{
+
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	a.page{
+		color: #ef7e93;
+		transition: color 0.5s;
+		text-decoration:none;
+	}
+
+	.page:active, .page:hover, .page:focus {
+		text-decoration:underline;
+	}
+
+	.box-feature{
+		display:inline-block;
+		zoom:1;
+		vertical-align: middle;
+		color:white;
+		height: 250px;
+		margin:0.5em;
+		position:relative;
+		background-color: pink;
+		align-items: center;
+		justify-content: center;
+	}
+
+
+	.text-feature{
+
+		font-size: 2.5rem;
+		color:white;
+		bottom:0;
+
+
+		/*vertical align refered from https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block/25799339*/
+	}
+
+
+
+	.overlay{
+		background: pink;
+		opacity: 0.5;
+	}
+
+
+
+
+	p{
+		margin-top:0.1rem;
+	}
+	p,code,ol{
+		max-width: 35rem;
+	}
+
+	ul {
+		color: black;
+		list-style-type:none;
+		width:100%;
+	}
+
+	.bullet_list li::before{ /**code of colored bullet points retrived from http://geniuscarrier.com/3-ways-to-change-the-color-of-dot-in-an-unordered-list/**/
+		content: '\25CF';
+		color: #a3cf83;/*green*/
+		padding-right: 0.5rem;
+	}
+
+	.numbered_list{
+		list-style-type: none;
+
+	}
+	.numbered_list li{/* codes of colored numbered list retrieved from https://stackoverflow.com/questions/488830/ol-with-numbers-another-color*/
+		counter-increment: item;
+		margin-bottom: 1rem;
+	}
+	.numbered_list li::before{
+		content: counter(item) ". ";
+		color: #a3cf83;/*green*/
+		padding-right: 0.5rem;
+	}
+
+	img {
+		height: auto;
+		max-width: 100%;
+	}
+
+	figure {
+		margin: 0;
+	}
+
+	figcaption {
+		font-style: italic;
+	}
+
+
+
+	a.back_button {
+		text-decoration: none;
+		display: inline-block;
+		padding: 8px 16px;
+		font-size: 1.5rem;
+		border: 2px solid #ef7e93;/*pink*/
+	}
+	a.back_button:hover {
+		background-color: #ef7e93;/*pink*/
+		color: white;
+	}
+
+	a.intext_link{
+		color: #a3cf83;
+		text-decoration: underline;
+	}
+	.intext_link:active, .intext_link:hover, .intext_link:focus {
+		color: #ef7e93;
+		text-decoration: underline;
+	}
+
+	/*description*/
+	.description_left{
+		display:inline-block;
+		/*background-image: url(../img/cover1.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;*/
+		zoom:1;
+		height: auto;
+		min-height: 10rem;
+		margin:1rem;
+
+		position:relative;
+
+	}
+
+	.description_right{
+		display:inline-block;
+		zoom:1;
+		vertical-align: middle;
+		height: auto;
+		margin:2em;
+		margin-top:1rem;
+		position:relative;
+	}
+
+	/*review page*/
+
+	.reviews li {
+		display: inline-block;
+		margin: 1rem;
+		padding: 0;
+		position:relative;
+		max-width: 20rem;
+	}
+
+	.reviews h2 {
+		border: 0;
+		padding: 0;
+	}
+
+	.reviews p{
+		padding-right: 1.5rem;
+	}
+
+	h5 {
+		font-size: 1.2rem;
+		margin-bottom: 0.5rem;
+		margin-top:0.8rem;
+		color:#7a7a7a;
+		font-weight:normal;
+	}
+
+	.products li {
+		display: inline-block;
+		/*  vertical-align: top;*/
+		margin: 2rem;
+		padding: 0;
+		/*  border: 2px solid #fdf7e6;*/
+		background-color: white;
+		box-shadow: 0px 2px 4px #dddddd;
+		/*https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+		position:relative;
+	}
+
+	.products li:hover {/*hover code from https://stackoverflow.com/questions/1988122/changing-font-color-of-a-contained-within-li-but-on-hover-over-li*/
+		/*background-color: #ef7e93;*/
+		outline: 5px solid #ef7e93;;
+	}
+
+	a.product_link {
+		text-decoration: none;
+		text-align: center;
+	}
+
+	a.product_link:active, a:hover, a:focus {
+
+	}
+
+	.product_link p{
+		color: #ef7e93;
+		font-weight: bolder;
+		transition: color 0.5s;
+		text-decoration: none;
+		margin-bottom: 0.5rem;
+	}
+
+
+	svg.cart-button{
+		fill:white;
+		stroke:#ef7e93;
+		margin: 1rem;
+		margin-bottom: 0;
+		margin-top:0.2rem;
+	}
+
+	a.product_link:active, svg:hover, svg:focus {
+		fill:#ef7e93;
+		stroke:white;
+
+	}
+
+	code, samp {
+		display: block;
+		background-color:#f1f1f1;
+		padding: 0.8rem;
+	}
+
+
+
+	.submit_button{/*code from lab exercise*/
+		border-color:white;
+		border-style:solid;
+		/*border-radius: 0.3rem;*/
+		color:white;
+		border-width: 0.15rem;
+		padding: 0.3rem 0.8rem;
+		text-decoration:none;
+
+		top:0;
+		bottom:3.5rem;/*vertical align refered from https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block/25799339*/
+
+
+	}
+
+	.submit_button:hover, .buttonfocus {
+		background-color:#ef7e93;
+		color:white;
+		border-color:#ef7e93;
+
+	}
+
+	.proceed_button{/*code from lab exercise*/
+		border-color:#ef7e93;
+		border-style:solid;
+		/*border-radius: 0.3rem;*/
+		color:#ef7e93;
+		border-width: 0.15rem;
+		padding: 0.6rem 1rem;
+		text-decoration:none;
+		margin: 1rem;
+	}
+
+	.proceed_button:hover, .buttonfocus {
+		background-color:#ef7e93;
+		color:white;
+		border-color:#ef7e93;
+	}
+
+	.recipes-category{
+		display:inline-block;
+		zoom:1;
+		vertical-align: middle;
+		color:white;
+		height: 250px;
+		margin:0.5em;
+		position:relative;
+	}
+
+	.sort{
+		margin-left: 4rem;
+	}
+
+	.sort_button{/*code from lab exercise*/
+		border: 1px solid #ef7e93;
+		/*border-radius: 0.3rem;*/
+		font-size: 1rem;
+		color:#ef7e93;
+		padding: 0.6rem 1rem;
+		text-decoration:none;
+		display:inline-block;
+
+
+
+	}
+
+	.sort_button:hover, .buttonfocus {
+		background-color:#ef7e93;
+		color:white;
+		border-color:#ef7e93;
+
+	}
+	/*checkout*/
+	.checkout{
+		padding:1rem;
+	}
+
+	.checkout_left{
+		display:inline-block;
+		float:left;
+		margin:0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+	}
+
+	.checkout_right{
+
+		float:right;
+		margin:0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+
+	form {
+		color:#ef7e93;
+		border-color: #ef7e93;
+		margin-left: 1rem;
+	}
+
+	input{/*form style code retrived from https://www.w3schools.com/css/css_form.asp*/
+		font-size: 0.8rem;
+		color: #606060;
+		border: 2px solid #ef7e93;
+		padding:.8rem;
+		margin-right:1rem;
+		margin-bottom: 0;
+
+	}
+
+	select {
+		color:#ef7e93;
+		font-size: 15px;
+		border-color: #ef7e93;
+		background-color: white;
+		padding:1rem;
+	}
+
+	option{
+		background-color: white;
+		padding:1rem;
+	}
+
+	.header_samples {
+		display: block;
+		background-color: #f2f2f2;
+		padding: 0.8rem;
+		max-width: 40rem;
+	}
+
+	.color{/*codes of color swatches retrieved from https://stackoverflow.com/questions/11226126/how-can-i-create-a-small-color-box-using-html-and-css/11226586*/
+		display: inline-block;
+		width: 90px;
+		height: 10px;
+		margin:3rem;
+		padding:1rem;
+		text-align: center;
+		font-size: 1rem;
+
+
+
+	}
+
+
+	.pink {
+		background: #ef7e93;
+		color: white;
+	}
+
+	.green {
+		background: #a3cf83;
+		color: white;
+	}
+
+	.white {
+		background: #ffffff;
+		color: black;
+		border: 1px solid black;
+	}
+
+	.container .block {
+
+		background-color: orange;
+		margin:0.5rem;
+	}
+
+	.row{
+		background: #ef7e93;
+		margin: 2rem;
+		padding:1rem;
+	}
+
+	.column{
+		display: inline-block;
+		background: #fdf7e6;
+		margin: 0.2rem;
+		width:190px;
+		height:220px;
+		padding:1rem;
+	}
+
+	footer{
+		background-color: #ef7e93;
+		color:white;
+		margin:0;
+		padding: 3rem;
+	}
+
+	.footer{
+		margin-left: 2rem;
+	}
+
+	.footer_link {
+		display: block;
+		color: white;
+		margin-bottom: 0.7em;
+		text-decoration:none;
+	}
+
+	.footer_link:active, .footer_link:hover, .footer_link:focus {
+		text-decoration:underline;
+	}
