@@ -76,3 +76,72 @@ code{
 .green-text{
   color:#0c866d;
 }
+
+a.intext_link{
+color: #0c866d;
+text-decoration: underline;
+}
+.intext_link:active, .intext_link:hover, .intext_link:focus {
+color: grey;
+text-decoration: underline;
+}
+
+a.back_button {
+text-decoration: none;
+display: inline-block;
+padding: 0.25rem 0.75rem;
+font-size: 1.5rem;
+border: 2px solid #0c866d;
+}
+a.back_button:hover {
+background-color: #0c866d;
+color: white;
+}
+
+.submit_button{
+border-color:#0c866d;
+border-style:solid;
+background-color: white;
+color:#0c866d;
+border-width: 0.15rem;
+padding: 0.25rem 0.75rem;
+margin-top:5rem;
+text-decoration: none;
+}
+
+.submit_button:hover, .buttonfocus {
+background-color:#0c866d;
+color:white;
+text-decoration: none;
+}
+
+form {
+color:#0c866d;
+border-color: #0c866d;
+}
+
+input{
+font-size: 1.5rem;
+color: #606060;
+border: 1px solid #0c866d;
+padding:0.3rem;
+}
+
+.numbered_list{
+list-style-type: none; }
+.numbered_list li{
+counter-increment: item; }
+.numbered_list li::before{
+content: counter(item) ". ";
+color: #0c866d;
+padding-right: 0.5rem; }
+
+ul {
+color: black;
+list-style-type:none;
+}
+.bullet_list li::before{
+content: '\25CF';
+color: #0c866d;
+padding-right: 0.5rem;
+}
