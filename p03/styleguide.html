@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,0">
+  <title>Style Guide</title>
+
+  <!--Bootstraps CSS links-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap..min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/res_header.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+
+
+</head>
+
+<body>
+  <header>
+    <div class="topnav " class="myTopnav">
+      <a href="hhh_home.html" class="active"><img alt="logo" src="img/logo.png" width="150" ></a>
+
+      <a href="#project" class="nav-main-item">projects</a>
+      <a href="#combine" class="nav-main-item">combined elements</a>
+      <a href="#interactive" class="nav-main-item">interactive elements</a>
+      <a href="#type" class="nav-main-item">typography</a>
+      <a href="#style" class="nav-main-item">style</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div>
+
+    </header>
+
+
+    <div class="container">
+
+
+
+      <div class="row">
+
+        <h1>Style Guide</h1>
+
+        <section id="style">
+
+          <h2>Style</h2>
+          <h3>colours</h3>
+
+          <div class="color green">#a3cf83</div>
+          <div class="color black">#000000</div>
+          <div class="color white">#ffffff</div>
+
+        <div class="divider"></div>
+
+        <h3>font</h3>
+        <div class="row">
+
+
+          <div class="col-md-6">
+            <h4>Dosis</h4>
+              <p>Dosis is a very simple, rounded, sans serif family. The font shows different impressions depending on the weight of the stroke. Rather it is minimalistic in thin, or expressive in bold, Dosis does not necessarily stand out from the crowd but definitely has its own personality.</p>
+          </div>
+
+
+
+          <div class="col-md-6">
+        <h4 >Example:</h4>
+        <h4 class="green-text">ABCDEFGHIGK</h4>
+        <h4 class="green-text">abcdefghijk</h4>
+        <h4 class="green-text">1234567890</h4>
+
+      </div>
+    </div>
+
+        </section>
+        <section id="type">
+
+            <div class="divider"></div>
+
+          <!--TYPE-->
+          <h2>Typography</h2>
+
+          <h3>Heading</h3>
+
+          <div class="row">
+
+
+            <div class="col-md-6">
+
+              <h4>CSS Selector:</h4>
+              <p>h1,h2,h3,h4</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;h1&gt;Heading One&lt;/h1&gt;<br>
+                &lt;h2&gt;Heading Two&lt;/h2&gt;<br>
+                &lt;h3&gt;Heading Three&lt;/h3&gt;<br>
+                &lt;h4&gt;Heading Four&lt;/h4&gt;<br>
+              </code>
+
+            </div>
+
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <h1>Heading One</h1>
+              <h2>Heading Two</h2>
+              <h3>Heading Three</h3>
+              <h4>Heading Four</h4>
+
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+
+
+
+          <h3>Paragraph</h3>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>p</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;p&gt; This is an example of a paragraph.&lt;/p&gt;
+              </code>
+            </div>
+
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <p>This is an example of a paragraph.</p>
+
+            </div>
+          </div>
+          <div class="divider"></div>
+
+
+
+
+          <h3>bulleted list</h3>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>ul.bullet_list, li</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;ul&gt;<br>
+                &lt;li&gt;List1&lt;/li&gt;<br>
+                &lt;li&gt;List2&lt;/li&gt;<br>
+                &lt;li&gt;List3&lt;/li&gt;<br>
+                &lt;li&gt;List4&lt;/li&gt;<br>
+                &lt;/ul&gt;<br>
+              </code>
+
+            </div>
+            <div class="col-md-6">
+
+              <h4>Example:</h4>
+              <ul class="bullet_list">
+                <li>List1</li>
+                <li>List2</li>
+                <li>List3</li>
+                <li>List4</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+
+
+          <h3>numbered list</h3>
+
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>ul.numbered_list, li</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;ul class="numbered_list"&gt;<br>
+                &lt;li&gt;List1&lt;/li&gt;<br>
+                &lt;li&gt;List2&lt;/li&gt;<br>
+                &lt;li&gt;List3&lt;/li&gt;<br>
+                &lt;li&gt;List4&lt;/li&gt;<br>
+                &lt;/ul&gt;<br>
+              </code>
+            </div>
+
+            <div class="col-md-6">
+
+              <h4>Example:</h4>
+              <ul class="numbered_list">
+                <li>List1</li>
+                <li>List2</li>
+                <li>List3</li>
+                <li>List4</li>
+
+              </ul>
+
+            </div>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="interactive">
+          <h2>Interactive Elements</h2>
+
+          <h3>Intext link</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>p</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;a href="" class="intext_link"&gt;In-text Link&lt;/a&gt;
+              </code>
+            </div>
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <a href="" class="intext_link">In-text Link</a>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <h3>Navigation button style</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>.button</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;a href="#" class="button"&gt; &#8249; &lt;/a&gt;<br>
+              </code>
+            </div>
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <a href="#" class="back_button">&#8249;</a>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <h3>submit button</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>.submit_button</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;a class="button"&gt;Submit&lt;/a&gt;
+              </code>
+            </div>
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <a class="submit_button">Submit</a>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <h3>text input</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <h4>CSS Selector:</h4>
+              <p>form, input</p>
+
+              <h4>Sample Code:</h4>
+              <code>
+                &lt;form&gt;<br>
+                First name: &lt;br&gt; <br>
+                &lt;input type="text" name="firstname" placeholder="name"&gt; &lt;br&gt;<br>
+                Last name: &lt;br&gt;<br>
+                &lt;input type="text" name="email" placeholder="email"&gt;
+                &lt;/form&gt;<br>
+              </code>
+            </div>
+            <div class="col-md-6">
+              <h4>Example:</h4>
+              <form>
+                Name:<br>
+                <input type="text" name="name" placeholder="name"><br>
+                Email:<br>
+                <input type="text" name="email" placeholder="email">
+              </form>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+        </section>
+
+        <section id="combine">
+
+          <h2>Combined Elements</h2>
+
+          <h3>main navigation</h3>
+          <p>Example of the main navigation bar for all pages.</p>
+
+          <div class="topnav " class="myTopnav">
+            <a href="hhh_home.html" class="active"><img alt="logo" src="img/logo.png" width="150" ></a>
+
+            <a href="#project" class="nav-main-item">projects</a>
+            <a href="#combine" class="nav-main-item">combined elements</a>
+            <a href="#interactive" class="nav-main-item">interactive elements</a>
+            <a href="#type" class="nav-main-item">typography</a>
+            <a href="#style" class="nav-main-item">style</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>work list</h3>
+          <p>Example to list works on home page.</p>
+
+          <div class="divider"></div>
+
+          <h3>website grid structure</h3>
+          <p>Example to list works on home page.</p>
+
+          <div class="container">
+
+          <div class="row bg-warning">border
+            <div class="col-lg-12 bg-success grid-heading">heading</div>
+            <div class="box">
+              <div class="grid-col-item bg-info">col1</div>
+              <div class="grid-col-item bg-info">col2</div>
+              <div class="grid-col-item bg-info">col3</div>
+            </div>
+          </div>
+          </div>
+          <div class="divider"></div>
+
+        </section>
+
+        <section id="project">
+
+          <h2>Projects</h2>
+          <h3>Project 1</h3>
+
+          <div class="row">
+              <div class="col-md-6">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+
+        </div>
+
+        <div class="col-md-6">
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+        </div>
+
+      </div>
+
+        <div class="divider"></div>
+
+        <h3>Project 2</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+
+      </div>
+
+      <div class="col-md-6">
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+      </div>
+
+    </div>
+
+    <div class="divider"></div>
+
+    <h3>Bio</h3>
+
+    <div class="row">
+        <div class="col-md-6">
+    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+
+  </div>
+
+  <div class="col-md-6">
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+  </div>
+
+</div>
+
+
+        </section>
+
+      </div>
+
+    </div>
+
+
+
+    <!--put jquery file before if using js-->
+
+    <!--Bootstrapes javascript CDN link-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/npm.js"></script>
+    <script src="js/hamburger.js"></script>
+
+  </body>
+
+  </html>
