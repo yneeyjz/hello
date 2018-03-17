@@ -1,18 +1,29 @@
 .box{/*flexbox code from week 3 tutorial exercise*/
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
-
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-
-  justify-content:space-around;
-  margin: 0;
-
+   flex-flow: column wrap;
+   height: 29em;
 }
+
 
 /*nav bar*/
 .grid-col-item{
   flex: 1 1 15em;
+}
+
+
+@media screen and (min-width: 700px;) {
+  .card-columns .card {
+
+    display:none;
+    }   /* hide it elsewhere */
+}
+
+@media screen and (max-width: 701px;) {
+  .card-columns .card {
+    display:none;
+    }   /* hide it elsewhere */
+}
+
+.card-columns .card{
+  display:inline-block;
 }

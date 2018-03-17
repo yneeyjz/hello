@@ -1,6 +1,5 @@
 body{
       font-family: 'dosisregular';
-
       padding:0;
 }
 
@@ -43,11 +42,6 @@ code{
   height:10rem;
 }
 
-.grid-col-item{
-  margin:1rem;
-  padding:1rem;
-  height:30rem;
-}
 
 .color{
   width:100px;
@@ -61,6 +55,11 @@ code{
 .green{
   background-color: #0c866d;
   color:white;
+}
+
+.mint{
+  background-color: #f9fffc;
+  color:black;
 }
 
 .black{
@@ -144,4 +143,54 @@ list-style-type:none;
 content: '\25CF';
 color: #0c866d;
 padding-right: 0.5rem;
+}
+
+/*project list*/
+.placeholder{
+  height:40px;
+}
+
+.project-grid{
+  text-align: center;
+  margin:0;
+}
+
+.project-item{
+  margin:0.5em;
+  padding:2rem;
+  height:350px;
+color:black;
+  text-align: center;
+  background-color: white;
+     box-shadow: 1px 1px 8px 1px #f2f2f2;
+}
+
+
+
+.project-item:hover, .project-item:focus {
+  background-color: white;
+     box-shadow: 1px 1px 8px 1px #dbe2e9;
+}
+
+.project-image{
+  margin:.5rem;
+  padding:2rem;
+  height:220px;
+  background-color: #f9fffc;
+}
+
+/**/
+}
+
+.bg-green{
+  background-color: #0c866d;
+  margin:1.5rem;
+
+}
+
+
+.text-left{
+  background-color: white;
+  text-align: left;
+  padding:2rem;
 }
