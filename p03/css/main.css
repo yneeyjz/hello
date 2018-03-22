@@ -39,6 +39,10 @@ p,code,ol{
 p{
   font-size: 16px;
 }
+
+a{
+  color: #0c866d;
+}
 code{
   background-color: #e1fff8;
   color: black;
