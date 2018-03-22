@@ -18,19 +18,21 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/sidebar.css">
   <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/images.css">
 
 
 </head>
 
-<body>
+<body class="home-body">
 
   <nav>
     <div class="topnav" id="myTopnav">
-      <a href="#" class="active"><img alt="logo" src="img/logo.svg" width="150" ></a>
+      <a href="home.html" class="active"><img alt="logo" src="img/logo.svg" width="150" ></a>
 
-      <a href="#" class="nav-main-item">projects</a>
-      <a href="#" class="nav-main-item">about</a>
-      <a href="#" class="nav-main-item">contact</a>
+      <a href="#projects" class="nav-main-item">projects</a>
+      <a href="about.html" class="nav-main-item">about</a>
+      <a href="#contact" class="nav-main-item">contact</a>
+        <a href="styleguide.html" class="nav-main-item">styleguide</a>
 
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
@@ -38,47 +40,51 @@
 
 
   <header>
-
-    <br><br><br><br><br><br>
   </header>
 
-  <div class="container-fluid">
-    <div class="row">
+  <div class="container">
+
+    <div class="row homepage">
       <div class="col-xs-0 col-sm-0 col-md-2 col-lg-2">
       </div>
       <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
-        <div class="col-lg-12">
 
-
+        <section id="projects">
+                      <div class="row">
 
           <div class="card-columns"><!--https://getbootstrap.com/docs/4.0/components/card/#card-columns-->
 
               <div class="card col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="patchjoi.html">
                 <div class="project-item">
-                  <div class="project-image"></div>
-                  <h3>Patchjoi</h3>
+                  <div class="project-image image1"></div>
+                  <h2>Patchjoi</h2>
                   <p>branding</p>
-                </div>
+                </div></a>
               </div>
 
               <div class="card col-xs-12 col-sm-6 col-md-6 col-lg-6 placeholder-order">
+
                 <div class="placeholder">
                 </div>
+
               </div>
 
               <div class="card col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <a href="ykpao.html">
                 <div class="project-item">
-                    <div class="project-image"></div>
-                    <h3>YK Pao</h3>
+                    <div class="project-image image2"></div>
+                    <h2>YK Pao</h2>
                       <p>editorial, print</p>
-                </div>
+                </div></a>
               </div>
 
               <div class="card col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="project-item">
-                    <div class="project-image"></div>
-                  <h3>PressReader</h3>
-                    <p>print, graphic design</p>
+                    <div class="project-image image3"></div>
+                  <h2>PressReader</h2>
+
+                    <p>COMING SOON</p>
                 </div>
               </div>
 
@@ -89,22 +95,31 @@
 
                 <div class="card col-xs-12 col-sm-6 col-md-6 col-lg-6">
                   <div class="project-item">
-                      <div class="project-image"></div>
-                    <h3>PressReader</h3>
-                      <p>print, graphic design</p>
+                      <div class="project-image image4"></div>
+                    <h2>Woodwide</h2>
+
+                      <p>COMING SOON</p>
                   </div>
-
-            </div>
           </div>
+        </div></div>
 
-          <footer>
+      </section>
+      <section id="contact">
 
-          <p>This is the footer</p>
+                        <div class="block">
 
-          </footer>
+                        <h2>Let's connect!</h2>
+                        <a href="#" class="intext_link">EMAIL</a><br>
+                        <a href="#" class="intext_link">Linkedin</a><br>
+                        <a href="#" class="intext_link">Instagram</a>
 
-        </div>
-      </div>
+
+                        </div>
+
+          </section>
+
+
+
     </div>
   </div>
 

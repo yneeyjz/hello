@@ -1,6 +1,13 @@
 body{
       font-family: 'dosisregular';
       padding:0;
+
+}
+
+.home-body{
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+  /*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
 }
 
 h1{
@@ -9,11 +16,10 @@ h1{
 }
 
 h2{
-}
-
-h3{
  text-transform: uppercase;
  color: #0c866d;
+ margin-top: 4rem;
+ margin-bottom: 2rem;
 }
 
 h4{
@@ -28,12 +34,23 @@ h4{
 }
 
 p,code,ol{
-  max-width: 45rem;
+  max-width: 65rem;
 }
-
+p{
+  font-size: 16px;
+}
 code{
   background-color: #e1fff8;
   color: black;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.homepage{
+  margin-top:12rem;
+    margin-bottom:12rem;
 }
 
 .grid-heading{
@@ -147,7 +164,7 @@ padding-right: 0.5rem;
 
 /*project list*/
 .placeholder{
-  height:40px;
+  height:5em;
 }
 
 .project-grid{
@@ -158,18 +175,18 @@ padding-right: 0.5rem;
 .project-item{
   margin:0.5em;
   padding:2rem;
-  height:350px;
+  height:400px;
 color:black;
   text-align: center;
   background-color: white;
-     box-shadow: 1px 1px 8px 1px #f2f2f2;
+     box-shadow: 3px 3px 8px 1px #dbe2e9;
 }
 
 
 
 .project-item:hover, .project-item:focus {
   background-color: white;
-     box-shadow: 1px 1px 8px 1px #dbe2e9;
+     box-shadow: 7px 7px  1px #0c866d;
 }
 
 .project-image{
@@ -179,12 +196,41 @@ color:black;
   background-color: #f9fffc;
 }
 
+.block{
+  margin:7em 2em;
+  padding:4rem;
+
+color:black;
+  background-color: white;
+     box-shadow: 7px 7px  1px #0c866d;
+
+}
 /**/
+
+
+.left_sidebar{
+  background-color: #f9fffc;
+  border: 1px solid #dbe2e9;
+  padding:1em;
+
+}
+.main{
+  padding:1em;
+}
+.nav-sample{
+    border: 1px solid #dbe2e9;
+    display: block;
+    padding:3em;
+    color:#0c866d;
+
 }
 
-.bg-green{
-  background-color: #0c866d;
-  margin:1.5rem;
+.nav-sample-item{
+
+    display: block;
+    margin:1em;
+
+
 
 }
 

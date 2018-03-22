@@ -4,12 +4,32 @@
    height: 29em;
 }
 
+.box-grid{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  justify-content:space-around;
+  margin: 2rem;
+}
+
 
 /*nav bar*/
 .grid-col-item{
   flex: 1 1 15em;
 }
 
+.box-grid-item{
+  flex: 1 1 15em;
+}
+
+.main{
+  flex: 8 1 15em;
+}
 
 @media screen and (min-width: 700px;) {
   .card-columns .card {
