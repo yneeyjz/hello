@@ -11,15 +11,15 @@ body{
 }
 
 h1{
-  font-family:'dosisbold';
+
   color: #0c866d;
 }
 
 h2{
  text-transform: uppercase;
  color: #0c866d;
- margin-top: 4rem;
- margin-bottom: 2rem;
+ margin: 2rem;
+
 }
 
 h4{
@@ -178,12 +178,12 @@ padding-right: 0.5rem;
 
 .project-item{
   margin:0.5em;
-  padding:2rem;
+  padding:0rem;
   height:400px;
 color:black;
   text-align: center;
   background-color: white;
-     box-shadow: 3px 3px 8px 1px #dbe2e9;
+     box-shadow: 4px 4px 8px 2px #bcbcbc;
 }
 
 
@@ -194,9 +194,9 @@ color:black;
 }
 
 .project-image{
-  margin:.5rem;
+  margin:0rem;
   padding:2rem;
-  height:220px;
+  height:280px;
   background-color: #f9fffc;
 }
 
