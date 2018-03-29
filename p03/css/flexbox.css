@@ -31,19 +31,8 @@
   flex: 8 1 15em;
 }
 
-@media screen and (min-width: 700px;) {
-  .card-columns .card {
-
+@media screen and (max-width: 700px) {
+  .placeholder-hidden{
     display:none;
     }   /* hide it elsewhere */
-}
-
-@media screen and (max-width: 701px;) {
-  .card-columns .card {
-    display:none;
-    }   /* hide it elsewhere */
-}
-
-.card-columns .card{
-  display:inline-block;
 }
