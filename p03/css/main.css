@@ -27,6 +27,11 @@ h2{
 
 h3{
   font-size: 23px;
+
+}
+
+h4{
+    font-family: 'dosisbold';
 }
 
 .divider{
@@ -83,8 +88,9 @@ a:hover{
 }
 
 .mint{
-  background-color: #f9fffc;
+  background-color: #f7faf9;
   color:black;
+  border: 1px solid black;
 }
 
 .black{
@@ -233,7 +239,7 @@ ul {
   padding: 1.2em;
 }
 .contact a{
-  margin: 1em;
+  margin: 0.8em;
 }
 
 /*project page styling*/
@@ -259,7 +265,7 @@ ul {
 /*nav styling*/
 
 .left_sidebar{
-  background-color: #f9fffc;
+
   border: 1px solid #dbe2e9;
   padding:1em;
 
