@@ -1,10 +1,4 @@
-.box{/*flexbox code from week 3 tutorial exercise*/
-  display: flex;
-   flex-flow: column wrap;
-   height: 29em;
-}
-
-.box-grid{
+.box-grid{/*flexbox code from week 3 tutorial exercise*/
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
