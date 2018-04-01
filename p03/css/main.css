@@ -127,13 +127,19 @@ a.intext_link{
 a.back_button {
   text-decoration: none;
   display: inline-block;
-  padding: 0.25rem 0.75rem;
+  padding: 0.5rem 0.9rem;
   font-size: 1.5rem;
-  border: 2px solid #0c866d;
+  border: 1px solid #0c866d;
+  color: #0c866d;
+  position:fixed;
+  right:2em;
+  bottom:3em;
+  opacity: 0.5;/*https://www.w3schools.com/cssref/css3_pr_opacity.asp*/
 }
 a.back_button:hover {
   background-color: #0c866d;
   color: white;
+  opacity: 1;
 }
 
 .submit_button{
@@ -236,7 +242,7 @@ ul {
 }
 .block a:hover{
   border-bottom: 1.5px solid #0c866d;
-  padding: 1.2em;
+  padding-bottom: 1em;
 }
 .contact a{
   margin: 0.8em;
