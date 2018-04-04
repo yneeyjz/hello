@@ -64,7 +64,7 @@
   display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 767 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 767px) {
   .topnav{width:100%;}
   .active{  float:left;}
@@ -115,8 +115,7 @@
     text-align: left;
   }
   @media (min-width: 768px) {
-
     .topnav.nav-sample a.{
       float:right;
     }
-  }
+  }/*breakpoints https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/

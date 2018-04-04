@@ -11,6 +11,11 @@ body{
   /*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
 }
 
+header{
+  margin:2rem;
+  padding:2rem 3.8rem;
+}
+
 h1{
   font-size:36px;
   color: #0c866d;
@@ -243,10 +248,10 @@ ul {
   box-shadow: 7px 7px  1px #0c866d;
 }
 
-.block a{
+.icons a{
   margin-right: 1em;
 }
-.block a:hover{
+.icons a:hover{
   border-bottom: 1.5px solid #0c866d;
   padding-bottom: 1em;
 }
