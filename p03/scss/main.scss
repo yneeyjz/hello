@@ -269,6 +269,10 @@ ul {
 .contact a{
   margin: 0.8em;
 }
+.contact a:hover{
+  border-bottom: 1.5px solid #0c866d;
+  padding-bottom: 1em;
+}
 
 /*nav styling*/
 
