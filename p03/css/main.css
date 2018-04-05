@@ -10,10 +10,13 @@ body{
   background-repeat: repeat;
   /*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
 }
+footer{
+  padding-bottom:1em;
 
-header{
-  margin:2rem;
-  padding:2rem 3.8rem;
+}
+
+a footer{
+  color:white;
 }
 
 h1{
