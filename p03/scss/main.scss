@@ -215,11 +215,6 @@ ul {
   height:3em;
 }
 
-.project-grid{
-  text-align: center;
-  margin:0;
-}
-
 .project-item{
   margin:0.8em;
   padding:0rem;
@@ -241,8 +236,15 @@ ul {
   margin:0rem;
   padding:2rem;
   height:280px;
-  background-color: #f9fffc;
+  background-size:100%;
+  background-position: center top;
+  position:relative;
 }
+
+@media screen and (min-width: 768px) {
+  .project-image{
+    background-position: 0;}
+  }
 
 /*block styling*/
 .block{
@@ -264,18 +266,11 @@ ul {
   margin: 0.8em;
 }
 
-/*project page styling*/
-.project-main img{
-  width:100%;
-}
-
 /*nav styling*/
 
 .left_sidebar{
-
   border: 1px solid #dbe2e9;
   padding:1em;
-
 }
 .main{
   padding:1em;
