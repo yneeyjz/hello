@@ -8,34 +8,18 @@
   <title>Style Guide</title>
 
   <!--Bootstraps CSS links from https://getbootstrap.com/-->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap..min.css">
-  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/sidebar.css">
-  <link rel="stylesheet" href="css/flexbox.css">
-  <link rel="stylesheet" href="css/images.css">
-
+  <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
   <header>
   </header>
-
-
   <div class="container">
-
-
-
     <div class="row col-xm-12 col-sm-12 col-lg-12">
-
       <h1>PORTFOLIO STYLE GUIDE</h1>
-
       <nav class="nav-styleguide">
 
         <a href="#style" class="intext_link">style</a>
@@ -50,32 +34,25 @@
 
         <h2>Style</h2>
         <h3>Colours</h3>
-
         <div class="color green">#a3cf83</div>
         <div class="color black">#000000</div>
         <div class="color white">#ffffff</div>
         <div class="color mint">#f7faf9</div>
-
-
         <div class="divider"></div>
 
         <h3>Font</h3>
         <div class="row">
-
 
           <div class="col-md-6">  <!--column elements referred from https://v4-alpha.getbootstrap.com/layout/grid/-->
             <h4>Dosis</h4>
             <p>Dosis is a very simple, rounded, sans serif family. The font shows different impressions depending on the weight of the stroke. Rather it is minimalistic in thin, or expressive in bold, Dosis does not necessarily stand out from the crowd but definitely has its own personality.</p>
           </div>
 
-
-
           <div class="col-md-6">
             <h4 >Example:</h4>
             <h4 class="green-text">ABCDEFGHIGK</h4>
             <h4 class="green-text">abcdefghijk</h4>
             <h4 class="green-text">1234567890</h4>
-
           </div>
         </div>
 
@@ -132,6 +109,7 @@
 
           </div>
         </div>
+      </section>
         <div class="divider"></div>
 
         <section id="interactive">
@@ -183,9 +161,9 @@
             <div class="col-md-6">
               <h4>Example:</h4>
               <div class="icons">
-                <a href="mailto:yneeyjz@gmail.com" class="intext_link"><img src="img/contact_email.svg" width="35"></a>
-                <a href="http://www.linkedin.com/in/yneeyjz" class="intext_link"><img src="img/contact_linkedin.svg" width="35"></a>
-                <a href="https://www.instagram.com/yneeyjz/" class="intext_link"><img src="img/contact_instagram.svg" width="35"></a>
+                <a href="mailto:yneeyjz@gmail.com" class="intext_link"><img src="img/contact_email.svg" alt="email icon" width="35"></a>
+                <a href="http://www.linkedin.com/in/yneeyjz" class="intext_link"><img src="img/contact_linkedin.svg" alt="linkedin icon" width="35"></a>
+                <a href="https://www.instagram.com/yneeyjz/" class="intext_link"><img src="img/contact_instagram.svg" alt="instagram icon" width="35"></a>
               </div>
             </div>
           </div>
@@ -238,10 +216,9 @@
           <div class="box-grid"><!--flexbox code from week 3 tutorial exercise-->
             <div class="box-grid-item nav-sample white">
               <a href="home.html" class="active"><img alt="logo" src="img/logo.svg" width="150"></a>
-              <a href="#projects" class="nav-main-item">projects</a><br>
-              <a href="about.html" class="nav-main-item">about</a><br>
+              <a href="#projects" class="nav-main-item">projects</a>
+              <a href="about.html" class="nav-main-item">about</a>
               <a href="#contact" class="nav-main-item">contact</a><br>
-              <a href="styleguide.html" class="nav-main-item">styleguide</a>
             </div>
             <div class="main home-body">
 
@@ -285,13 +262,10 @@
             <div class="box-grid-item left_sidebar white">
               <h2>Navigation</h2>
             </div>
-
             <div class="main left_sidebar">
-
               <h2>Main Area</h2>
-
               <div class="row box-grid">
-                <div class="block box-grid-item">
+                <div class="box-grid-item block">
                   <h2>Title of <br>project process</h2>
                   <p>Details of project description are located here.</p>
 
@@ -323,7 +297,6 @@
     <!--put jquery file before if using js-->
 
     <!--Bootstrapes javascript CDN link-->
-    <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm.js"></script>
     <script src="js/hamburger.js"></script>

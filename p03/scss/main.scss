@@ -11,6 +11,8 @@ body{
   /*https://www.w3schools.com/cssref/pr_background-repeat.asp*/
 }
 footer{
+  margin:0;
+  padding:0;
   padding-bottom:1em;
 
 }
@@ -72,7 +74,7 @@ a:hover{
 
 .homepage{
   margin-top:10rem;
-  margin-bottom:10rem;
+  margin-bottom:1rem;
 }
 
 .grid-heading{
@@ -213,15 +215,14 @@ ul {
   height:3em;
 }
 
-.project-grid{
-  text-align: center;
-  margin:0;
+.project-main img{
+  width:100%;
 }
 
 .project-item{
   margin:0.8em;
   padding:0rem;
-  height:400px;
+  height:420px;
   color:black;
   text-align: center;
   background-color: white;
@@ -238,9 +239,16 @@ ul {
 .project-image{
   margin:0rem;
   padding:2rem;
-  height:280px;
-  background-color: #f9fffc;
+  height:300px;
+  background-size:100%;
+  background-position: center top;
+  position:relative;
 }
+
+@media screen and (min-width: 768px) {
+  .project-image{
+    background-position: 0;}
+  }
 
 /*block styling*/
 .block{
@@ -262,33 +270,11 @@ ul {
   margin: 0.8em;
 }
 
-/*project page styling*/
-.project-main img{
-  width:100%;
-}
-
-.block2{
-  margin:0;
-  padding:4rem;
-  color:black;
-  background-color: white;
-  box-shadow: 7px 7px  1px #0c866d;
-  display:hidden;
-}
-
-@media (max-width: 30em;) {
-  .block2{
-    display:hidden;
-  }
-}
-
 /*nav styling*/
 
 .left_sidebar{
-
   border: 1px solid #dbe2e9;
   padding:1em;
-
 }
 .main{
   padding:1em;

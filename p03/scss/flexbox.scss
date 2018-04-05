@@ -10,21 +10,13 @@
   justify-content:space-around;
   margin: 2rem;
 }
-
-
 /*nav bar*/
-.grid-col-item{
-  flex: 1 1 15em;
-}
-
 .box-grid-item{
   flex: 1 1 15em;
 }
-
 .main{
   flex: 8 1 15em;
 }
-
 @media screen and (max-width: 700px) {
   .placeholder-hidden{
     display:none;
