@@ -101,12 +101,11 @@
   .topnav.nav-sample{
     position:relative;
     padding:1em;
-    width:220px;
+    width:80%;
   }
 
   .topnav.nav-sample a.icon {
     position: absolute;
-    display:block;
     right: 0;
     top: 1.1em;
   }
@@ -116,7 +115,7 @@
     text-align: left;
   }
   @media (min-width: 768px) {
-    .nav-sample a{
+    .nav-sample a.{
       float:right;
     }
   }/*breakpoints https://www.w3schools.com/css/css_rwd_mediaqueries.asp*/
