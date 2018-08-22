@@ -1,0 +1,42 @@
+.project-item2{
+    margin:0.8em;
+    padding:0rem;
+    height:380px;
+
+    color:black;
+    text-align:right;
+
+
+
+  /*
+  -webkit-box-shadow:4px 4px 8px 2px #bcbcbc;
+    box-shadow:4px 4px 8px 2px #bcbcbc*/}
+
+.project-item2:focus,.project-item2:hover{
+
+    border-bottom:8px solid transparent;
+
+    border-right:8px solid transparent;}
+
+.project-image2{
+  position: relative;
+  padding:1em;
+  height:70%;
+  width:70%;
+  background-image: url(background-image:url(../img/p1_11.png);
+  background-size:cover;
+}
+
+@media screen and (min-width:768px)
+  {.project-image{background-position:0}}
+  .block{margin:7em 2em;padding:4rem;color:black;background-color:white;
+    -webkit-box-shadow:7px 7px  1px #0c866d;
+    box-shadow:7px 7px  1px #0c866d}
+
+
+.project-text {
+    font-weight:bold;
+      position: relative;
+      top: 70%;
+      left: 50%;
+    }
