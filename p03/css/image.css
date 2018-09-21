@@ -1,19 +1,29 @@
 .image1{
   background-image:url(../img/fispan_cover.jpg);
-  background-position:center top}
+  background-position:center top
+}
 
 .image2{
   background-image:url(../img/pressreader_cover.png);
-  background-position:center top}
+  background-position:center top
+}
 
 .image3{
   background-image:url(../img/fave_cover.jpg);
-  background-position:center top}
+  background-position:center top
+}
 
 .image4{
   background-image:url(../img/ykpao_cover.png);
-  background-position:center}
+  background-position:center
+}
 
-  .image5{
-    background-image:url(../img/patchjoi_cover.png);
-    background-position:center}
+.image5{
+  background-image:url(../img/patchjoi_cover.jpg);
+  background-position:center
+}
+
+.image6{
+  background-image:url(../img/gotalk_cover.jpg);
+  background-position:center
+}
