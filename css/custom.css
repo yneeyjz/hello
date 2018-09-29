@@ -1,3 +1,4 @@
+
 .project-item2{
   margin:0.8em;
   padding:1rem;
@@ -8,11 +9,12 @@
 }
 
 .project-item2:focus,.project-item2:hover{
-
   border-bottom:8px solid transparent;
-
   border-right:8px solid transparent;
 }
+
+a.no_line, a.topnav{
+  text-decoration: none ;}
 
 .project-image2{
   position: relative;
@@ -31,7 +33,7 @@
 
 .project-text {
   background-color:#fff;
-  width:50%;
+  width:55%;
   padding: 0.7em;
   font-weight:bold;
   text-align:center;
